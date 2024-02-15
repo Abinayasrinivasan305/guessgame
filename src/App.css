@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: #40c9d5;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  text-align: center;
+ }
+ .container{
+  background: rgb(245,153,193);
+  background: radial-gradient(circle, rgba(245,153,193,1) 0%, rgba(241,157,239,1) 100%);
+  margin-top: 70px;
+   width:500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  height:250px;
+   border-radius: 10px;
+ }
+ .inputcontainer{
+   
+   width:500px;
+   height: 200px;
+   margin-top:50px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+   
+ }
+ label{
+  
+   font-size: 25px;
+   font-weight: bold;
+ }
+ 
+ .inputtext{
+ 
+   width: 150px;
+   padding:5px;
+   border:2px solid black;
+   border-radius: 5px;
+ }
+ @media only screen and (max-width: 600px) {
+  .container{
+    background: rgb(245,153,193);
+    background: radial-gradient(circle, rgba(245,153,193,1) 0%, rgba(241,157,239,1) 100%);
+    margin-top: 70px;
+     width:250px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    height:200px;
+     border-radius: 10px;
+   }
+   label{
+  
+    font-size: 15px;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+  .inputcontainer{
+   
+    width:200px;
+    height: 200px;
+    margin-top:20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
   }
 }
